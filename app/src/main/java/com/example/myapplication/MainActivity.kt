@@ -39,6 +39,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+// Tried testing on virtual device, results came out semi successful
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Surface(color = Color.Magenta) {
